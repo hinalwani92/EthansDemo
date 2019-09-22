@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.178 s <<< FAILURE! - in TestSuite
+VerifyTitle(MyJenkinsTest.TestOne)  Time elapsed: 37.47 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GAUTAM-PC', ip: '192.168.0.129', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x009DAA43+1550915]
+	Ordinal0 [0x0095A901+1026305]
+	Ordinal0 [0x008DC915+510229]
+	Ordinal0 [0x0086FC68+64616]
+	Ordinal0 [0x0086C594+50580]
+	Ordinal0 [0x0088ACE7+175335]
+	Ordinal0 [0x0088A8ED+174317]
+	Ordinal0 [0x00888CDB+167131]
+	Ordinal0 [0x0087144A+70730]
+	Ordinal0 [0x008724D0+74960]
+	Ordinal0 [0x00872469+74857]
+	Ordinal0 [0x009744C7+1131719]
+	GetHandleVerifier [0x00A7722D+523773]
+	GetHandleVerifier [0x00A76FC0+523152]
+	GetHandleVerifier [0x00A7E317+552679]
+	GetHandleVerifier [0x00A77A2A+525818]
+	Ordinal0 [0x0096B9FC+1096188]
+	Ordinal0 [0x0097653B+1140027]
+	Ordinal0 [0x009766A3+1140387]
+	Ordinal0 [0x00975625+1136165]
+	BaseThreadInitThunk [0x76633677+18]
+	RtlInitializeExceptionChain [0x77519D72+99]
+	RtlInitializeExceptionChain [0x77519D45+54]
+
+	at MyJenkinsTest.TestOne.VerifyTitle(TestOne.java:17)
+

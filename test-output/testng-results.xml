@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27306" started-at="2019-09-15T04:52:35Z" finished-at="2019-09-15T04:53:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27306" started-at="2019-09-15T04:52:35Z" finished-at="2019-09-15T04:53:03Z">
+      <class name="MyJenkinsTest.TestOne">
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:MyJenkinsTest.TestOne@26be92ad]" name="VerifyTitle" duration-ms="27264" started-at="2019-09-15T10:22:35Z" finished-at="2019-09-15T10:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+      </class> <!-- MyJenkinsTest.TestOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
